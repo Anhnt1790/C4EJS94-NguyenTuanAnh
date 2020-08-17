@@ -1,0 +1,36 @@
+let x = prompt("Enter the temperature in Celcius");
+
+alert(x +'(C) = '  + (x*1.8+32) + '(F)');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

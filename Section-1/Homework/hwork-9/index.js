@@ -1,0 +1,35 @@
+let x = prompt("Enter the radius of the Circle");
+
+alert("The circle area is " + (x*x*3.14) );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
