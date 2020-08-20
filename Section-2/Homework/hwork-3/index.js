@@ -13,7 +13,7 @@
 
 // console.log("c. A sequence of numbers, starting from 3, ending before n, n entered by user");
 // let x = prompt("Enter n");
-// for(y=3; y<x; ++y){
+// for(y=3; y<x; y++){
 //     console.log(y);
 // }
 
@@ -26,15 +26,15 @@
 
 // console.log("e. A sequence of numbers, starting from c, ending before n, stepping by 3, c and n entered by user");
 // let x = prompt("Enter n");
-// let y = prompt("Enter c");
+// let y = Number(prompt("Enter c"));
 // for (let z = y; z < x; z += 3) {
 //     console.log(z);
 // }
 
 // console.log("f. A sequence of numbers, starting from c, ending before n, stepping by s. c, n and s entered by user");
 // let x = prompt("Enter n");
-// let y = prompt("Enter c");
-// let z = prompt("Enter s");
+// let y = Number(prompt("Enter c"));
+// let z = Number(prompt("Enter s"));
 // for(let n = y; n < y; n += z){
 //     console.log(n);
 // }
