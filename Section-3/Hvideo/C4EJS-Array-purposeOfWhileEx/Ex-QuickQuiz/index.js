@@ -1,9 +1,13 @@
 console.log('C4EJS-Array-Quick Quiz');
-let question = ['1. None', '2. 4 legs', '3. 8 legs', '4. 12 legs'];
-// alert(question);
+console.log('How many legs does a spider have?');
+console.log('1. None');
+console.log('2. 4 legs');
+console.log('3. 8 legs');
+console.log('4. 12 legs');
 
 while (true) {
-    let quiz = prompt('How many legs does a spider have?');
-    if(quiz)
-}
+    n = prompt('Tra loi cau do');
+    if (n) {
 
+    }
+}

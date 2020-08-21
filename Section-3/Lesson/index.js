@@ -11,8 +11,8 @@
 // console.log(menu);
 
 //              0            1            2    => index
-let menu = ['Chao', 'Com', 'Burger', 'Bun'];
-console.log(menu);
+// let menu = ['Chao', 'Com', 'Burger', 'Bun'];
+// console.log(menu);
 
 // menu.push('Khoai tay chien');
 // console.log(menu);
@@ -44,19 +44,29 @@ console.log(menu);
 
 // let n = Number(prompt('Enter a number'));
 // console.log(n);
-
 // if (n) {
 //     console.log('Is number');
 // } else {
 //     console.log('Is not number');
 // }
 
-let n;
-while (true)
-{
-    n = Number(prompt('Enter a number'));
-    if (n) {
-        break;
-    }
+// let n;
+// while (true)
+// {
+//     n = Number(prompt('Enter a number'));
+//     if (n) {
+//         break;
+//     }
+// }
+// console.log(n)
+
+let n = prompt('nhap chieu cao')
+if(n < 100){
+    alert('lun tit');
 }
-console.log(n)
+else if(n < 180){
+    alert('nguoi dep')
+}
+else{
+    alert('cao vut');
+}
