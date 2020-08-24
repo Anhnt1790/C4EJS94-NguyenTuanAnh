@@ -1,6 +1,7 @@
 console.log("Write a program to calculate the factorial of n: (1 * 2 * 3 *... *n), n enter by user");
-let x = prompt("Enter a number");
+let n = prompt("Enter a number");
+for (i = 0; i < n; n--) {
 
-for(let y = x; y<x; y++){
-    alert(`The factorial of `);
+    alert(`The factorial of ${n} is ${5 ** n}`);
 }
+
