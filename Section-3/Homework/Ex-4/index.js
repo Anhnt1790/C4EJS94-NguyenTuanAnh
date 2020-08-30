@@ -1,21 +1,22 @@
-// console.log('Write a script to simulate a clothes shop, asking and performing certain tasks from users');
-// let s = prompt('Hi there, welcome to shop admin panel,what do you want (C,R,U,D)?');
-// let i = ['Jean', 'T-shirt', 'Sock'];
-// while(true){
-//     if()
-// }
+console.log('Write a script to simulate a clothes shop, asking and performing certain tasks from users');
+let yeuCau = prompt('Hi there, welcome to shop admin panel,what do you want (C,R,U,D)?');
+let cuaHang = ['Jean', 'T-shirt', 'Sock'];
+while (true) {
 
-
-
-let tenCauThu = ['Ronaldo', 'Messi', 'Neymar'];
-alert(tenCauThu);
-let thayDoiTenCauThu = prompt('Co muon nhap thay doi ten cau thu khong bang cach nhap Y hoac N');
-let tenCauThuMuonNhap = prompt('Ten cau thu muon nhap');
-    if (thayDoiTenCauThu = 'Y') {
-        tenCauThu.push(tenCauThuMuonNhap);
-        console.log(tenCauThu);
-    } else if (thayDoiTenCauThu = 'N') {
-        alert('Goodbye');
+    for (let i = 0; i < cuaHang.length; i++) {
+        console.log(cuaHang[i]);
     }
 
-
+    {
+        if (yeuCau == 'r') {
+            alert(cuaHang)
+        } else if (yeuCau == 'c') {
+            let doMoi = prompt('Enter the name of the new item');
+            cuaHang.push(doMoi);
+            alert('Done');
+        } else {
+            alert('This command is not supported')
+        }
+        break;
+    }
+}

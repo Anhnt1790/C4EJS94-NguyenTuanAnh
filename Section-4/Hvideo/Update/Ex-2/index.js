@@ -5,7 +5,8 @@ let movie = {
 }
 let n = prompt('What you want to update');
 let y = prompt('What is the update');
-alert('Done');
-movie.title = '';
+
+movie[n] = y;
+
 console.log(movie);
 
