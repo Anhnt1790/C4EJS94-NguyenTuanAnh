@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script src="index.js"></script> -->
+
+    <div>
+        <div class="singer">Jame Bay</div>
+        <div class="singer">Nate Ruess</div>
+        <div class="singer">Ed Sheeran</div>
+        <div class="singer">Steve Garrigan</div>
+    </div>
+    <script>
+        let x = document.getElementsByTagName('div');
+        for (let i = 0; i <= 4; i++) {
+            console.log(x[i]);
+        }
+        console.log('======');
+        console.log(x[1]);
+
+        let y = document.getElementsByClassName('singer');
+        for (let i = 0; i < 4; i++) {
+            console.log(y[i].innerHTML);
+        }
+    </script>
+</body>
+
+</html>

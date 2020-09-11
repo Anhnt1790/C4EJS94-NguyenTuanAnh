@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script src="index.js"></script> -->
+
+    <ul>
+        <li>News</li>
+        <li>Articles</li>
+        <li>Blog</li>
+    </ul>
+
+    <script>
+        let x = document.getElementsByTagName("li");
+        console.log(x[0]);
+        console.log('--------------');
+        function myFunction() {
+            for (let i = 0; i < 3; i++) {
+                console.log(x[i].innerHTML);
+            }
+        }
+        myFunction();
+    </script>
+</body>
+
+</html>
