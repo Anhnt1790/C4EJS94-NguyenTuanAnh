@@ -35,46 +35,43 @@
     background-color: #ddd;
     color: black;
   }
-  
-  /* Column container */
-  .row {  
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
+
+    /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
+    width: 300px;
+    background-color:white;
   }
   
   /* Main column */
   .main {
-    flex: 70%;
     background-color: white;
-    padding: 20px;
+    width: 70%;
   }
   
-  /* Fake image, just for this example */
-  .fakeimg {
-    background-color: #aaa;
-    width: 300px;
-    height: 250px;
-    padding: 25px;
+  /* Avartar image, just for this example */
+  .avartar {
+    width: 200px;
+    height: fit-content;
+   
+  }
+  .avartar  .img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid yellow;
+    position: relative;
   }
   
   /* Footer */
-  .footer {
-    padding: 20px;
+  /* .footer {
     text-align: center;
     background: #ddd;
   }
+   */
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 700px) {
-    .row, .navbar {   
+  /* @media screen and (max-width: 300px) {
+    .row, .navbar, .bonus {   
       flex-direction: column;
     }
-  }
+  } */
