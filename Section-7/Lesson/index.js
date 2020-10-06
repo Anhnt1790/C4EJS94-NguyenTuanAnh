@@ -133,10 +133,11 @@
 //     console.log("Hon em di");
 // })
 
-let myInput = document.getElementById('my-input');
-myInput.addEventListener('keypress', function(data){
-    console.log(data);
-})
+// let myInput = document.getElementById('my-input');
+// myInput.addEventListener('keypress', function(data){
+//     console.log(data);
+// })
 
-
+let myPromise = new Promise();
+console.log(new Promise());
 
